@@ -1,0 +1,7 @@
+install.packages("Seurat")
+install.packages("remotes")
+remotes::install_github("mojaveazure/seurat-disk")
+install.packages("tidyverse")
+install.packages("BiocManager")
+BiocManager::install("GO.db")
+BiocManager::install("clusterProfiler")
