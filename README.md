@@ -109,7 +109,7 @@ Install automatically via:
 ```r
 source("analysis/01_install_packages.R")
 # Clone this repo
-git clone https://github.com/<your-username>/breast-cancer-scRNAseq.git
+git clone https://github.com/haiqa284021-alt/breast-cancer-scRNAseq.git
 cd breast-cancer-scRNAseq
 
 # Open RStudio and run:
