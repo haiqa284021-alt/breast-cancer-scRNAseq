@@ -6,39 +6,38 @@ This repository contains the full R pipeline for single-cell RNA sequencing (scR
 
 ## Project Structure
 
+```text
 breast-cancer-scRNAseq/
-│
 ├── README.md
 ├── sessionInfo.txt
-│
 ├── analysis/
-│ ├── 01_install_packages.R
-│ ├── 02_create_seurat_object.R
-│ ├── 03_QC_filtering.R
-│ ├── 04_normalization_PCA.R
-│ ├── 05_clustering_annotation.R
-│ ├── 06_marker_identification.R
-│ ├── 07_pathway_enrichment.R
+│   ├── 01_install_packages.R
+│   ├── 02_create_seurat_object.R
+│   ├── 03_QC_filtering.R
+│   ├── 04_normalization_PCA.R
+│   ├── 05_clustering_annotation.R
+│   ├── 06_marker_identification.R
+│   └── 07_pathway_enrichment.R
 │
 ├── figures/
-│ ├── Annotated_UMAP.png
-│ ├── GO_Fibroblast.png
-│ ├── KEGG_Fibroblast.png
-│ ├── GO_Luminal.png
-│ ├── KEGG_Luminal.png
-│ ├── GO_Macrophage.png
-│ ├── KEGG_Macrophage.png
-│ ├── GO_Stromal.png
-│ ├── KEGG_Stromal.png
-│ ├── GO_Endothelial.png
-│ ├── KEGG_Endothelial.png
-│ ├── GO_Neuroendocrine.png
-│ ├── KEGG_Neuroendocrine.png
+│   ├── Annotated_UMAP.png
+│   ├── GO_Fibroblast.png
+│   ├── KEGG_Fibroblast.png
+│   ├── GO_Luminal.png
+│   ├── KEGG_Luminal.png
+│   ├── GO_Macrophage.png
+│   ├── KEGG_Macrophage.png
+│   ├── GO_Stromal.png
+│   ├── KEGG_Stromal.png
+│   ├── GO_Endothelial.png
+│   ├── KEGG_Endothelial.png
+│   ├── GO_Neuroendocrine.png
+│   └── KEGG_Neuroendocrine.png
 │
 ├── data/
-│ └── Breast_Cancer_3p_filtered_feature_bc_matrix.h5
-
----
+│   └── Breast_Cancer_3p_filtered_feature_bc_matrix.h5
+└── LICENSE
+```
 
 ##  Objective
 
